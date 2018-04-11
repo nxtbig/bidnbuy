@@ -40,7 +40,7 @@ $userRow = mysqli_fetch_array($res, MYSQLI_ASSOC);
                 <li><a href="postad.php">Post Ad</a></li>
                 <li style="padding:8px">
                     <form class="form-inline" style="width:500px">
-                        <input class="form-control col-md-12" type="search" placeholder="Search" aria-label="Search" style="width:417px">
+                        <input class="form-control col-md-1" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit" style="margin-left:5px">Search</button>
                     </form>
                 </li>
